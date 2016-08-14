@@ -1,0 +1,6 @@
+Hadoop 1 Syntax for core,hdfs and mapred
+------------------------------------------------
+
+x="<?xml version=\"1.0\"?>\n<?xml-stylesheet type=\"text/xsl\" href=\"configuration.xsl\"?>\n\n<!-- Put site-specific property overrides in this file. -->\n\n<configuration>\n\n</configuration>"
+
+

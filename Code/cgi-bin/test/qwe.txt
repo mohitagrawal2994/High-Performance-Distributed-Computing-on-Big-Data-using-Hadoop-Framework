@@ -1,0 +1,30 @@
+hadoop 1
+-----------------
+Install JDK				20
+Copy Hadoop Rpm				40
+Install Hadoop				60
+Make Config Files			70	
+Copy Config Files			85
+Start The Services			100
+
+
+
+hadoop v2
+----------------
+install jdk					20
+copy hadoop					40
+extract hadoop set java & hadoop path		60
+make config files				70
+copy config files				85
+start the services				100
+
+
+if(w=='1'):
+		print "xmlhttp.open('GET', 'http://192.168.43.145/cgi-bin/AJAX/cluster1.py?uid="+uid+ "', false);"
+       		print "xmlhttp.send();"	
+	else:
+		print "xmlhttp.open('GET', 'http://192.168.43.145/cgi-bin/AJAX/cluster2.py?uid="+uid+ "', false);"
+       		print "xmlhttp.send();"
+		    
+
+

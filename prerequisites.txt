@@ -1,0 +1,13 @@
+Prerequisite for Big Data Hadoop
+------------------------------------
+1.> SELINUX set to permissive mode
+
+2.>Firewall disable it
+
+3.>install httpd,mysql,mysql-python,ansible
+
+4.>give a+rwx permissions in html folder & +x in cgi
+
+5.>check if IP change then change in code in mancluster.py accordingly if nemask changed 
+
+6.>create user hadoop,database hs and tables as in mysql.txt
