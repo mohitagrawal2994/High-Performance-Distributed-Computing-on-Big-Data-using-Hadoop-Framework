@@ -14,6 +14,8 @@ Prerequisite for Big Data Hadoop
 
 4.> Give a+rwx permissions in html folder & +x in cgi-bin folder to all users
 
-5.> If the netmask i.e. mancluster.py accordingly if nemask changed 
+5.> In mancluster.py the IP of range of datanodes is extracted i.e. the last digits of the IPv4 is extacted from the range.
+            E.g. 192.168.12.1-192.168.12.56   ---> the last digits i.e. 1 and 56 are extracted.
+            The IP is considered as string and the digits after the 11th place is extracted so change the code according to the IP range you have got.
 
 6.> Create user hadoop,database hs and tables as mentioned in file mysql.txt
