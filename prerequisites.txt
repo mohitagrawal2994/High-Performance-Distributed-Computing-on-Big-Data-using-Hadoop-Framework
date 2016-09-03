@@ -1,13 +1,19 @@
+The following steps must be followed to setup a web portal that installs hadoop 1.2.1 and hadoop 2.6.4 on client systems(min. 7 required)
+
 Prerequisite for Big Data Hadoop
 ------------------------------------
-1.> SELINUX set to permissive mode
+1.> Set SELINUX to permissive mode
 
-2.>Firewall disable it
+2.> Disable Firewall
 
-3.>install httpd,mysql,mysql-python,ansible
+3.> Install the following RPM packages
+      httpd
+      mysql
+      mysql-python
+      ansible
 
-4.>give a+rwx permissions in html folder & +x in cgi
+4.> Give a+rwx permissions in html folder & +x in cgi-bin folder to all users
 
-5.>check if IP change then change in code in mancluster.py accordingly if nemask changed 
+5.> If the netmask i.e. mancluster.py accordingly if nemask changed 
 
-6.>create user hadoop,database hs and tables as in mysql.txt
+6.> Create user hadoop,database hs and tables as mentioned in file mysql.txt
